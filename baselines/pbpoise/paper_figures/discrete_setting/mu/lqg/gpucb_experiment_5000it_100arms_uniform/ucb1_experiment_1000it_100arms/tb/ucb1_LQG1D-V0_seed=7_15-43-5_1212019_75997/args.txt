@@ -1,0 +1,28 @@
+max_iters >>> 1000
+
+filename >>> progress
+
+plot_bound >>> False
+
+std_init >>> 0.15
+
+gamma >>> 0.99
+
+policy >>> linear
+
+trainable_std >>> False
+
+grid_size >>> 100
+
+experiment >>> True
+
+seed >>> 7
+
+horizon >>> 20
+
+gain_init >>> -0.1
+
+logdir >>> mu_only_ucb1_2
+
+env >>> LQG1D-v0
+

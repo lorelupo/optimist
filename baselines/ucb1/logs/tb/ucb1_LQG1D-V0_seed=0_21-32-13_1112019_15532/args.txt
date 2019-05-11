@@ -1,0 +1,26 @@
+gamma >>> 0.99
+
+std_init >>> 0.15
+
+policy >>> linear
+
+max_iters >>> 1000
+
+grid_size >>> 100
+
+logdir >>> logs
+
+seed >>> 0
+
+filename >>> progress
+
+env >>> LQG1D-v0
+
+trainable_std >>> True
+
+gain_init >>> -0.1
+
+experiment >>> False
+
+horizon >>> 20
+

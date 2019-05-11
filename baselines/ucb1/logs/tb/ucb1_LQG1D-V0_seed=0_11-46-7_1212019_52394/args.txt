@@ -1,0 +1,28 @@
+grid_size >>> 100
+
+gain_init >>> -0.1
+
+seed >>> 0
+
+plot_bound >>> True
+
+std_init >>> 0.15
+
+env >>> LQG1D-v0
+
+max_iters >>> 1000
+
+filename >>> progress
+
+policy >>> linear
+
+trainable_std >>> False
+
+horizon >>> 20
+
+gamma >>> 0.99
+
+logdir >>> logs
+
+experiment >>> False
+

@@ -1,0 +1,40 @@
+seed >>> 1
+
+policy >>> linear
+
+gain_init >>> -0.1
+
+env >>> MountainCarContinuous-v0
+
+seed_max >>> 5
+
+experiment >>> False
+
+delta >>> 0.2
+
+rescale_ep_return >>> False
+
+filename >>> progress
+
+horizon >>> 1000
+
+std_init >>> 0.15
+
+trainable_std >>> False
+
+seed_min >>> 0
+
+grid_size_1d >>> 20
+
+plot_bound >>> None
+
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/discrete_setting/mu/gpucb_experiment_mc_100arms_newbox
+
+mu_max >>> 1
+
+mu_min >>> -1
+
+gamma >>> 0.99
+
+max_iters >>> 5000
+

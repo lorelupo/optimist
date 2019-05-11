@@ -1,0 +1,66 @@
+trainable_std >>> False
+
+max_offline_iters >>> 10
+
+plot_ess_profile >>> False
+
+seed >>> 4
+
+rescale_ep_return >>> False
+
+save_weights >>> False
+
+std_init >>> 0.03
+
+drho >>> 1
+
+njobs >>> -1
+
+find_optimal_arm >>> False
+
+max_iters >>> 5000
+
+gamma >>> 1.0
+
+experiment >>> False
+
+seed_min >>> 0
+
+mu_init >>> None
+
+grid_size_1d >>> 0
+
+horizon >>> 500
+
+delta_t >>> continuous
+
+delta >>> 0.2
+
+env >>> rllab.inverted_pendulum
+
+render_after >>> None
+
+mu_min >>> -0.2
+
+policy >>> linear
+
+multiple_init >>> None
+
+seed_max >>> 5
+
+logdir >>> /home/exploration/baselines/baselines/pbpoise/paper_figures/continuous_setting/mu/optimist_experiment_ip_k5_5000it_std0.03
+
+bound_type >>> max-renyi
+
+bounded_policy >>> True
+
+mu_max >>> 0.2
+
+truncated_mise >>> True
+
+k >>> 5
+
+plot_bound >>> None
+
+filename >>> progress
+

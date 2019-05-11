@@ -1,0 +1,34 @@
+delta >>> 0.2
+
+policy >>> linear
+
+max_iters >>> 5000
+
+horizon >>> 20
+
+plot_bound >>> False
+
+trainable_std >>> False
+
+seed >>> 6
+
+std_init >>> 0.15
+
+filename >>> progress
+
+gamma >>> 0.99
+
+logdir >>> /home/exploration/baselines/baselines/pbpoise/paper_figures/discrete_setting/gpucb_experiment_5000it_100arms_uniform_nokernel
+
+seed_min >>> 0
+
+gain_init >>> -0.1
+
+seed_max >>> 5
+
+grid_size >>> 100
+
+experiment >>> False
+
+env >>> LQG1D-v0
+

@@ -1,0 +1,52 @@
+multiple_init >>> None
+
+seed >>> 9
+
+env >>> LQG1D-v0
+
+drho >>> 1
+
+filename >>> progress
+
+bounded_policy >>> True
+
+max_offline_iters >>> 10
+
+delta >>> 0.2
+
+logdir >>> discrete_pbpoise_mu_experiment
+
+max_iters >>> 5000
+
+delta_t >>> discrete
+
+gamma >>> 0.99
+
+policy >>> linear
+
+grid_optimization >>> 50
+
+trainable_std >>> False
+
+experiment >>> True
+
+std_init >>> 0.15
+
+render_after >>> None
+
+njobs >>> -1
+
+find_optimal_arm >>> False
+
+horizon >>> 20
+
+plot_bound_profile >>> False
+
+plot_ess_profile >>> False
+
+bound_type >>> max-renyi
+
+truncated_mise >>> True
+
+gain_init >>> -0.1
+

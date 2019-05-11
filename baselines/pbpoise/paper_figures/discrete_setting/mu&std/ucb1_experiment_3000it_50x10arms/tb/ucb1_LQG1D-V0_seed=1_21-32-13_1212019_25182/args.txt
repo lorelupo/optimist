@@ -1,0 +1,28 @@
+horizon >>> 20
+
+max_iters >>> 3000
+
+logdir >>> ucb1_std_experiment
+
+gain_init >>> -0.1
+
+policy >>> linear
+
+std_init >>> 1.0
+
+seed >>> 1
+
+experiment >>> True
+
+gamma >>> 0.99
+
+filename >>> progress
+
+trainable_std >>> True
+
+plot_bound >>> False
+
+grid_size >>> 50
+
+env >>> LQG1D-v0
+

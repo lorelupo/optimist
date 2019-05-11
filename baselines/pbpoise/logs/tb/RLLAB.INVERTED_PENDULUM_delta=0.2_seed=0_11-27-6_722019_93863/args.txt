@@ -1,0 +1,66 @@
+mu_init >>> None
+
+horizon >>> 500
+
+delta >>> 0.2
+
+trainable_std >>> False
+
+rescale_ep_return >>> False
+
+max_offline_iters >>> 10
+
+delta_t >>> None
+
+mu_min >>> -1
+
+k >>> 2
+
+bound_type >>> max-renyi
+
+gamma >>> 1.0
+
+filename >>> progress
+
+experiment >>> False
+
+grid_size_1d >>> 0
+
+std_init >>> None
+
+find_optimal_arm >>> True
+
+multiple_init >>> None
+
+mu_max >>> 1
+
+seed_min >>> 0
+
+drho >>> 1
+
+env >>> rllab.inverted_pendulum
+
+save_weights >>> False
+
+bounded_policy >>> True
+
+logdir >>> logs
+
+njobs >>> -1
+
+max_iters >>> 1000
+
+plot_bound >>> None
+
+plot_ess_profile >>> False
+
+seed_max >>> 5
+
+render_after >>> None
+
+policy >>> linear
+
+truncated_mise >>> True
+
+seed >>> 0
+

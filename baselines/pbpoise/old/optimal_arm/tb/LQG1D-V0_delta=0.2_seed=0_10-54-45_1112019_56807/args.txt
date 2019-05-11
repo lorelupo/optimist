@@ -1,0 +1,48 @@
+gain_init >>> -0.67
+
+render_after >>> None
+
+bounded_policy >>> True
+
+drho >>> 1
+
+trainable_std >>> False
+
+max_iters >>> 2000
+
+horizon >>> 20
+
+env >>> LQG1D-v0
+
+seed >>> 0
+
+max_offline_iters >>> 10
+
+delta >>> 0.2
+
+multiple_init >>> None
+
+bound_type >>> max-renyi
+
+truncated_mise >>> True
+
+gamma >>> 0.99
+
+filename >>> progress
+
+experiment >>> False
+
+delta_t >>> None
+
+grid_optimization >>> 0
+
+njobs >>> -1
+
+policy >>> linear
+
+std_init >>> 0.15
+
+find_optimal_arm >>> True
+
+logdir >>> logs
+

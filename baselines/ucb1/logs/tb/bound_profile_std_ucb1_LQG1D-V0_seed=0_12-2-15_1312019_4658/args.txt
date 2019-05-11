@@ -1,0 +1,28 @@
+seed >>> 0
+
+experiment >>> False
+
+max_iters >>> 3000
+
+filename >>> bound_profile_std
+
+plot_bound >>> True
+
+gamma >>> 0.99
+
+std_init >>> 1.0
+
+policy >>> linear
+
+env >>> LQG1D-v0
+
+gain_init >>> -0.1
+
+trainable_std >>> True
+
+grid_size >>> 50
+
+logdir >>> logs
+
+horizon >>> 20
+

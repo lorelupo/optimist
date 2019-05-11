@@ -1,0 +1,40 @@
+batch_size >>> 100
+
+env >>> MountainCarContinuous-v0
+
+seed >>> 0
+
+policy >>> linear
+
+seed_max >>> 5
+
+experiment >>> False
+
+step_size >>> 0.01
+
+gamma >>> 0.99
+
+njobs >>> -1
+
+max_iters >>> 1000
+
+seed_min >>> 0
+
+filename >>> progress
+
+trainable_std >>> False
+
+horizon >>> 500
+
+mu_init >>> 0.1
+
+std_init >>> 0.15
+
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/continuous_setting/mu/pgpe_experiment_mc
+
+verbose >>> True
+
+step_size_strategy >>> None
+
+use_baseline >>> False
+

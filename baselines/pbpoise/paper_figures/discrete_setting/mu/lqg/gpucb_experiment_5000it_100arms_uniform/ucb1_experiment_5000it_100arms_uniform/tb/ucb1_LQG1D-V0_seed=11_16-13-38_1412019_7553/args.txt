@@ -1,0 +1,32 @@
+std_init >>> 0.15
+
+seed_min >>> 0
+
+horizon >>> 20
+
+logdir >>> ucb1_experiment_5000it_100arms_uniform
+
+gamma >>> 0.99
+
+max_iters >>> 5000
+
+plot_bound >>> False
+
+seed >>> 11
+
+filename >>> progress
+
+trainable_std >>> False
+
+seed_max >>> 30
+
+grid_size >>> 100
+
+experiment >>> True
+
+gain_init >>> -0.1
+
+env >>> LQG1D-v0
+
+policy >>> linear
+

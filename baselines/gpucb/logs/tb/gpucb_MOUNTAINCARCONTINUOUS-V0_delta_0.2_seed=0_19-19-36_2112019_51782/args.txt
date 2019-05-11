@@ -1,0 +1,40 @@
+delta >>> 0.2
+
+seed_max >>> 5
+
+trainable_std >>> False
+
+env >>> MountainCarContinuous-v0
+
+max_iters >>> 5000
+
+std_init >>> 0.15
+
+rescale_ep_return >>> False
+
+gain_init >>> -0.1
+
+grid_size_1d >>> 20
+
+gamma >>> 1.0
+
+mu_max >>> 2
+
+logdir >>> logs
+
+filename >>> progress
+
+experiment >>> False
+
+horizon >>> 1000
+
+plot_bound >>> None
+
+seed_min >>> 0
+
+mu_min >>> -2
+
+seed >>> 0
+
+policy >>> linear
+

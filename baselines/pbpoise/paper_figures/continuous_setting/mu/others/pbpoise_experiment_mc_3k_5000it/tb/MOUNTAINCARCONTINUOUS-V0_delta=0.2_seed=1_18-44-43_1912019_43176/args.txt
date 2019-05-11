@@ -1,0 +1,60 @@
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/continuous_setting/mu/pbpoise_experiment_mc_3k_5000it
+
+truncated_mise >>> True
+
+horizon >>> 500
+
+delta_t >>> continuous
+
+seed_max >>> 5
+
+gamma >>> 0.99
+
+grid_size_1d >>> 0
+
+max_offline_iters >>> 10
+
+render_after >>> None
+
+multiple_init >>> None
+
+std_init >>> 0.15
+
+k >>> 3
+
+bounded_policy >>> True
+
+policy >>> linear
+
+find_optimal_arm >>> False
+
+mu_init >>> 0.1
+
+delta >>> 0.2
+
+drho >>> 1
+
+plot_bound >>> False
+
+trainable_std >>> False
+
+plot_ess_profile >>> False
+
+bound_type >>> max-renyi
+
+seed >>> 1
+
+njobs >>> -1
+
+seed_min >>> 0
+
+rescale_ep_return >>> False
+
+max_iters >>> 5000
+
+env >>> MountainCarContinuous-v0
+
+experiment >>> False
+
+filename >>> progress
+

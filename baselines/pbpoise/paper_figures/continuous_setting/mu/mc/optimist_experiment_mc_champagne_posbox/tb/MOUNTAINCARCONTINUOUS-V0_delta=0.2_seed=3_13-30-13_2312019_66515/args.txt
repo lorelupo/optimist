@@ -1,0 +1,66 @@
+mu_max >>> 1
+
+mu_min >>> -1
+
+truncated_mise >>> True
+
+seed_max >>> 5
+
+k >>> 3
+
+render_after >>> None
+
+find_optimal_arm >>> False
+
+seed >>> 3
+
+filename >>> progress
+
+std_init >>> None
+
+delta_t >>> continuous
+
+delta >>> 0.2
+
+plot_bound >>> None
+
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/continuous_setting/mu/optimist_experiment_mc_champagne_posbox
+
+max_iters >>> 5000
+
+save_weights >>> False
+
+trainable_std >>> False
+
+gamma >>> 1.0
+
+plot_ess_profile >>> False
+
+rescale_ep_return >>> False
+
+max_offline_iters >>> 10
+
+mu_init >>> None
+
+env >>> MountainCarContinuous-v0
+
+experiment >>> False
+
+bounded_policy >>> True
+
+grid_size_1d >>> 0
+
+policy >>> linear
+
+seed_min >>> 0
+
+njobs >>> -1
+
+bound_type >>> max-renyi
+
+horizon >>> 1000
+
+multiple_init >>> None
+
+drho >>> 1
+

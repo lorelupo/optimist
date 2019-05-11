@@ -1,0 +1,66 @@
+env >>> rllab.inverted_pendulum
+
+mu_min >>> -1
+
+plot_bound >>> None
+
+std_init >>> None
+
+mu_init >>> None
+
+bound_type >>> max-renyi
+
+filename >>> progress
+
+multiple_init >>> None
+
+seed >>> 0
+
+gamma >>> 1.0
+
+horizon >>> 500
+
+trainable_std >>> False
+
+seed_max >>> 5
+
+grid_size_1d >>> 0
+
+policy >>> linear
+
+delta_t >>> None
+
+save_weights >>> False
+
+mu_max >>> 1
+
+k >>> 2
+
+truncated_mise >>> True
+
+seed_min >>> 0
+
+render_after >>> None
+
+max_offline_iters >>> 10
+
+logdir >>> logs
+
+bounded_policy >>> True
+
+plot_ess_profile >>> False
+
+rescale_ep_return >>> False
+
+drho >>> 1
+
+delta >>> 0.2
+
+max_iters >>> 1000
+
+njobs >>> -1
+
+experiment >>> False
+
+find_optimal_arm >>> True
+

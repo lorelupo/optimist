@@ -1,0 +1,64 @@
+render_after >>> None
+
+env >>> MountainCarContinuous-v0
+
+experiment >>> False
+
+seed_max >>> 5
+
+bound_type >>> max-renyi
+
+trainable_std >>> False
+
+plot_ess_profile >>> False
+
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/discrete_setting/mu/optimist_experiment_mc_3k__5000it_newbox
+
+plot_bound >>> None
+
+delta >>> 0.2
+
+rescale_ep_return >>> False
+
+truncated_mise >>> True
+
+seed_min >>> 0
+
+policy >>> linear
+
+max_offline_iters >>> 10
+
+gamma >>> 0.99
+
+std_init >>> 0.15
+
+find_optimal_arm >>> False
+
+mu_min >>> -1
+
+drho >>> 1
+
+delta_t >>> discrete
+
+mu_max >>> 1
+
+grid_size_1d >>> 0
+
+mu_init >>> -0.1
+
+bounded_policy >>> True
+
+seed >>> 4
+
+horizon >>> 1000
+
+max_iters >>> 5000
+
+multiple_init >>> None
+
+k >>> 2
+
+njobs >>> -1
+
+filename >>> progress
+

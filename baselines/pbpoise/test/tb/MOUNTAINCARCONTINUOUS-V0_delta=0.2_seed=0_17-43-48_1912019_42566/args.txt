@@ -1,0 +1,60 @@
+delta >>> 0.2
+
+bounded_policy >>> True
+
+filename >>> progress
+
+grid_size_1d >>> 0
+
+rescale_ep_return >>> False
+
+njobs >>> -1
+
+bound_type >>> max-renyi
+
+render_after >>> None
+
+find_optimal_arm >>> False
+
+policy >>> linear
+
+seed_min >>> 0
+
+drho >>> 1
+
+std_init >>> 0.15
+
+experiment >>> False
+
+multiple_init >>> None
+
+max_offline_iters >>> 10
+
+trainable_std >>> False
+
+seed_max >>> 5
+
+logdir >>> test
+
+gamma >>> 0.99
+
+env >>> MountainCarContinuous-v0
+
+plot_bound >>> False
+
+delta_t >>> continuous
+
+horizon >>> 500
+
+truncated_mise >>> True
+
+max_iters >>> 1000
+
+k >>> 3
+
+mu_init >>> 0.1
+
+seed >>> 0
+
+plot_ess_profile >>> False
+

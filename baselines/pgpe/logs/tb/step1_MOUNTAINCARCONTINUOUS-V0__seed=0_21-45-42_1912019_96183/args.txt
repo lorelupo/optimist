@@ -1,0 +1,40 @@
+njobs >>> -1
+
+trainable_std >>> False
+
+seed >>> 0
+
+step_size_strategy >>> None
+
+gamma >>> 0.99
+
+seed_min >>> 0
+
+experiment >>> False
+
+std_init >>> 0.15
+
+batch_size >>> 1
+
+max_iters >>> 2
+
+horizon >>> 5
+
+logdir >>> logs
+
+step_size >>> 0.1
+
+seed_max >>> 5
+
+env >>> MountainCarContinuous-v0
+
+policy >>> linear
+
+use_baseline >>> False
+
+mu_init >>> 0.1
+
+filename >>> step1
+
+verbose >>> True
+

@@ -1,0 +1,34 @@
+delta >>> 0.2
+
+trainable_std >>> False
+
+seed_min >>> 0
+
+gamma >>> 0.99
+
+experiment >>> True
+
+plot_bound >>> False
+
+logdir >>> gpucb_experiment_5000it_100arms_uniform
+
+grid_size >>> 100
+
+filename >>> progress
+
+seed >>> 17
+
+policy >>> linear
+
+seed_max >>> 30
+
+horizon >>> 20
+
+env >>> LQG1D-v0
+
+max_iters >>> 5000
+
+std_init >>> 0.15
+
+gain_init >>> -0.1
+

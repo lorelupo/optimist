@@ -1,0 +1,28 @@
+trainable_std >>> False
+
+horizon >>> 20
+
+std_init >>> 0.15
+
+gamma >>> 0.99
+
+env >>> LQG1D-v0
+
+max_iters >>> 1000
+
+plot_bound >>> False
+
+logdir >>> mu_only_ucb1
+
+filename >>> progress
+
+policy >>> linear
+
+experiment >>> True
+
+seed >>> 3
+
+grid_size >>> 100
+
+gain_init >>> -0.1
+

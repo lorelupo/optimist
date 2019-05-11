@@ -1,0 +1,52 @@
+njobs >>> -1
+
+horizon >>> 20
+
+drho >>> 1
+
+gain_init >>> -0.1
+
+find_optimal_arm >>> False
+
+experiment >>> True
+
+seed >>> 29
+
+delta >>> 0.2
+
+policy >>> linear
+
+grid_optimization >>> 100
+
+plot_ess_profile >>> False
+
+bound_type >>> max-renyi
+
+render_after >>> None
+
+max_iters >>> 5000
+
+std_init >>> 0.15
+
+env >>> LQG1D-v0
+
+logdir >>> pbpoise_experiment_5000it_100arms
+
+delta_t >>> discrete
+
+gamma >>> 0.99
+
+filename >>> progress
+
+truncated_mise >>> True
+
+bounded_policy >>> True
+
+plot_bound_profile >>> False
+
+max_offline_iters >>> 10
+
+trainable_std >>> False
+
+multiple_init >>> None
+

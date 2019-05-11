@@ -1,0 +1,40 @@
+logdir >>> /home/ubuntu/baselines/baselines/pbpoise/paper_figures/continuous_setting/mu/pgpe_experiment_ip
+
+max_iters >>> 50
+
+verbose >>> True
+
+njobs >>> -1
+
+step_size_strategy >>> None
+
+seed_min >>> 0
+
+trainable_std >>> False
+
+env >>> rllab.inverted_pendulum
+
+use_baseline >>> False
+
+seed_max >>> 5
+
+step_size >>> 0.0001
+
+horizon >>> 500
+
+filename >>> progress
+
+std_init >>> 0.15
+
+batch_size >>> 100
+
+experiment >>> False
+
+seed >>> 0
+
+gamma >>> 0.99
+
+policy >>> linear
+
+mu_init >>> 0.1
+

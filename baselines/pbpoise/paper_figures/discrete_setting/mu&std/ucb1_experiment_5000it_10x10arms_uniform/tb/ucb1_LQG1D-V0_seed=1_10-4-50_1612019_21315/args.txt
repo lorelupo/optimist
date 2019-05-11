@@ -1,0 +1,32 @@
+gain_init >>> -0.1
+
+gamma >>> 0.99
+
+experiment >>> True
+
+grid_size >>> 10
+
+std_init >>> 1.0
+
+horizon >>> 20
+
+plot_bound >>> False
+
+env >>> LQG1D-v0
+
+trainable_std >>> True
+
+max_iters >>> 5000
+
+filename >>> progress
+
+seed >>> 1
+
+seed_max >>> 5
+
+logdir >>> ../pbpoise/paper_figures/discrete/ucb1_experiment_5000it_10x10arms_uniform
+
+policy >>> linear
+
+seed_min >>> 0
+

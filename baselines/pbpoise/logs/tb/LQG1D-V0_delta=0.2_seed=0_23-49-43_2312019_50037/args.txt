@@ -1,0 +1,66 @@
+save_weights >>> False
+
+rescale_ep_return >>> False
+
+filename >>> progress
+
+delta_t >>> None
+
+drho >>> 1
+
+mu_init >>> None
+
+logdir >>> logs
+
+truncated_mise >>> True
+
+bound_type >>> max-renyi
+
+render_after >>> None
+
+plot_ess_profile >>> False
+
+mu_min >>> -1
+
+multiple_init >>> None
+
+seed_min >>> 0
+
+policy >>> linear
+
+horizon >>> 20
+
+max_offline_iters >>> 10
+
+seed_max >>> 5
+
+find_optimal_arm >>> False
+
+env >>> LQG1D-v0
+
+max_iters >>> 1000
+
+plot_bound >>> None
+
+trainable_std >>> False
+
+bounded_policy >>> True
+
+njobs >>> -1
+
+seed >>> 0
+
+delta >>> 0.2
+
+k >>> 2
+
+std_init >>> None
+
+gamma >>> 0.99
+
+experiment >>> False
+
+mu_max >>> 1
+
+grid_size_1d >>> 0
+
