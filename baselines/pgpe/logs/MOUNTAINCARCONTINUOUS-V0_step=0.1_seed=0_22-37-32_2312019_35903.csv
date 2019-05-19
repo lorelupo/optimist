@@ -1,2 +1,0 @@
-NumTrajectories,J,BatchSize,StepSize,AvgEpLen,AvgRet,NatGradInftyNorm,Iteration,VarJ,MountainCar_std0_higher,MountainCar_std1_higher,ActionIn1,MinEpLen,ReturnMean,NatGrad2Norm,MountainCar_mu1_higher,ReturnMax,MountainCar_mu0_higher,TimestepsSoFar
-100,-0.6467140704523833,100,0.1,498.29,-2.5723968105035344,0.20796593,1,0.0045555493943002096,0.14999999,3.0,0.37999994,329,-0.6467140704523833,0.22854787,0.9164054,3.5189626518793977,0.40025148,49829
