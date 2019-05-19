@@ -6,8 +6,6 @@
 # Common imports
 import sys, re, os, time, logging
 from collections import defaultdict
-import json
-sys.path.append('/home/alberto/rllab/rllab')
 
 # Framework imports
 import gym
@@ -19,10 +17,9 @@ from baselines.common import set_global_seeds
 from baselines import logger
 import baselines.common.tf_util as U
 from baselines.common.rllab_utils import Rllab2GymWrapper, rllab_env_from_name
-from baselines.common.atari_wrappers import make_atari, wrap_deepmind
 # Self imports: algorithm
 from baselines.policy.mlp_hyperpolicy import PeMlpPolicy
-from baselines.pbpoise import pbpoise
+from baselines.optimist import optimist
 
 
 def args_to_file(args, dir, filename):
@@ -115,7 +112,6 @@ def train(env, policy, horizon, seed, bounded_policy,
                                higher_logstd_init=higher_logstd_init,
                                const_std_init=const_std_init)
 
-
     try:
         affinity = len(os.sched_getaffinity(0))
     except:
@@ -131,7 +127,7 @@ def train(env, policy, horizon, seed, bounded_policy,
     sampler = None
 
     # Learn
-    pbpoise.learn(env_name, make_env, seed, make_policy, horizon=horizon,
+    optimist.learn(env_name, make_env, seed, make_policy, horizon=horizon,
                   sampler=sampler, **alg_args)
 
 
@@ -151,7 +147,6 @@ def single_run(args, seed=None):
         t.tm_hour, t.tm_min, t.tm_sec, t.tm_mday, t.tm_mon, t.tm_year, tt)
     args_str = '%s_delta=%s_seed=%s' % (
         args.env.upper(), args.delta, args.seed)
-
     if args.filename == 'progress':
         filename = args_str + '_' + time_str
     else:
