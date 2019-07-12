@@ -6,7 +6,7 @@ The implementation is based on OpenAI [baselines](https://github.com/openai/base
 
 ## CITING
 
-To cite the OPTIMIST paper:
+To cite the OPTIMIST paper in publications:
 ```
 @InProceedings{pmlr-v97-papini19a,
   title = 	 {Optimistic Policy Optimization via Multiple Importance Sampling},
@@ -26,7 +26,7 @@ To cite the OPTIMIST paper:
 }
 ```
 
-To cite the OpeanAI baselines repository in publications:
+To cite the OpeanAI baselines repository:
 ```
 @misc{baselines,
   author = {Dhariwal, Prafulla and Hesse, Christopher and Klimov, Oleg and Nichol, Alex and Plappert, Matthias and Radford, Alec and Schulman, John and Sidor, Szymon and Wu, Yuhuai},
