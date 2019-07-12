@@ -4,7 +4,7 @@ This repository contains the implementation of the OPTIMIST algoritm, discussed 
 
 The implementation is based on OpenAI [baselines](https://github.com/openai/baselines).
 
-## CITING
+## Citing
 
 To cite the OPTIMIST paper in publications:
 ```
