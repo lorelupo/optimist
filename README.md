@@ -1,6 +1,6 @@
 # OPTIMIST
 
-This repository contains the implementation of the OPTIMIST algoritm, discussed in the paper [Optimistic Policy Optimization via Multiple Importance Sampling](http://proceedings.mlr.press/v97/papini19a/papini19a.pdf).
+This repository contains the implementation of the OPTIMIST algoritm, discussed in the paper [Optimistic Policy Optimization via Multiple Importance Sampling](http://proceedings.mlr.press/v97/papini19a/papini19a-supp.pdf).
 
 The implementation is based on OpenAI [baselines](https://github.com/openai/baselines).
 
